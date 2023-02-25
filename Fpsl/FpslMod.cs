@@ -6,7 +6,7 @@ namespace Fpsl
     [MainMod]
     public class FpslMod : Mod
     {
-        public Vector2 fpsLimits = new Vector2(15, 240);
+        public Vector2 fpsLimits = new Vector2(0, 240);
 
         bool windowOpen = false;
         bool LimitEnabled = true;
